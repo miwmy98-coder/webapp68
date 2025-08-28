@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta>
+<title>Styled Checkbox</title>
+<style>
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+legend {
+  font-weight: bold;
+}
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #4CAF50;
+  transition: transform 0.2s ease;
+}
+input[type="checkbox"]:checked {
+  transform: scale(1.2);
+}
+label {
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<fieldset>
+  <table><b>Preview :</b></table>
+  <label><input type="checkbox"> Oranges</label>
+  <label><input type="checkbox"> Bananas</label>
+</fieldset>
+
+</body>
+</html>
